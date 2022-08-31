@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+
+}
+body {
+    background-image: url(https://64.media.tumblr.com/f7abb15eca970bdf455fc3be55e89dfe/tumblr_inline_okc574oLKW1rxgd0o_400.gifv);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex: 30%;
+}
+
+.moon-phase {
+    display: inline-block;
+    margin: 100px 50px 0px 200px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+.imageMoon {
+    margin: 100px 200px 0px 0px; 
+}
+
+footer {
+    position: absolute;
+    display: inline;
+    bottom: 20px;
+    right: 0;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
